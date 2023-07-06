@@ -1,8 +1,10 @@
+import { Container, Heading } from "@chakra-ui/react";
+
 function Message() {
 	return (
-		<h1 className="text-3xl font-bold underline">
-			Hello World!
-		</h1>
+		<Container maxWidth="md">
+			<Heading mt={10}>Hello World!</Heading>
+		</Container>
 	);
 }
 
