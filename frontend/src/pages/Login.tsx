@@ -10,6 +10,7 @@ import {
   Image,
   Input
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -28,7 +29,7 @@ function Login() {
           <Input type='password' focusBorderColor='purple' size="sm"/>
         </FormControl>
         <Box>
-          <Button type="submit" colorScheme="purple" width="100%" size="sm">Submit</Button>
+          <Button type="submit" colorScheme="purple" width="100%" size="sm"><Link to="/dashboard">Submit</Link></Button>
         </Box>
       </Container>
     </Flex>

@@ -1,10 +1,12 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
 function DashboardLayout() {
   return (
-    <Grid bg="gray.100" height="100vh">
+    <Grid templateColumns="200px 1fr" bg="gray.200" minHeight="100vh">
+      <Sidebar />
       <GridItem>
         <Navbar />
         <Outlet />

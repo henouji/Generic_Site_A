@@ -1,9 +1,20 @@
-import { Avatar, Box, Button, Flex, HStack, Heading, Menu, MenuButton, MenuDivider, MenuList, Spacer, Text } from "@chakra-ui/react"
+import {
+  Avatar,
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Menu,
+  MenuButton,
+  MenuDivider,
+  MenuList,
+  Spacer,
+  Text
+} from "@chakra-ui/react"
 
-function Navbar() {
-  return (
+function Navbar() {return (
     <Flex as="nav" p="10px" bg="gray.50" alignItems="center" boxShadow='base'>
-      <Heading as="h1" size="md" color="blackAlpha.700">Generic Site A</Heading>
+      <Heading size="sm" color="gray.700">Dashboard</Heading>
       <Spacer />
 
       <Menu>
