@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 
 function DashboardLayout() {
   return (
-    <Grid templateColumns="200px 1fr" bg="gray.200" minHeight="100vh">
+    <Grid templateColumns="250px 1fr" bg="gray.200" minHeight="100vh">
       <Sidebar />
       <GridItem>
         <Navbar />
